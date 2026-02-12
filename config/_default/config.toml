@@ -1,7 +1,6 @@
 baseURL = "https://poems.akhil.me"
 languageCode = "en-us"
 title = "Poems by Akhil"
-theme = "ed"
 summaryLength = 10
 
 [outputs]
@@ -11,4 +10,8 @@ summaryLength = 10
   description = "A collection of poems exploring life, nature, and reflection"
   author = "Akhil"
   favicon = ""
+
+[module]
+  [[module.imports]]
+    path = "github.com/sergeyklay/gohugo-theme-ed"
 
