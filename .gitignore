@@ -5,6 +5,9 @@ resources/
 # Hugo cache
 .hugo_build.lock
 
+# Hugo modules
+/vendor/
+
 # Environment variables
 .env
 .env.local

@@ -1,8 +1,11 @@
 baseURL = "https://poems.akhil.me"
 languageCode = "en-us"
 title = "Poems by Akhil"
-theme = "ed"
 summaryLength = 10
+
+[module]
+  [[module.imports]]
+    path = "github.com/sergeyklay/gohugo-theme-ed"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
