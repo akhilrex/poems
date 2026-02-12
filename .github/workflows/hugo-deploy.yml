@@ -37,6 +37,7 @@ jobs:
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
+          HUGO_DISABLE_MODULES: "true"
         run: |
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}"
 
