@@ -1,0 +1,25 @@
+# Generated files
+public/
+resources/
+
+# Hugo cache
+.hugo_build.lock
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Git submodules
+themes/*/
+
+# Node modules (if using npm)
+node_modules/
+package-lock.json
