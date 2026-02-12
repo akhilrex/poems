@@ -17,9 +17,6 @@ resources/
 *~
 .DS_Store
 
-# Git submodules
-themes/*/
-
 # Node modules (if using npm)
 node_modules/
 package-lock.json
