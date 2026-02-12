@@ -146,28 +146,31 @@ poems/
 │       └── hugo-deploy.yml          # GitHub Actions deployment
 ├── archetypes/
 │   └── default.md                   # Content template
+├── config/
+│   └── _default/
+│       └── config.toml              # Hugo configuration
 ├── content/
 │   └── poems/
 │       ├── sample-poem.md           # Example poem
 │       └── [your-poems].md          # Your poem files
 ├── layouts/                         # Custom layouts (optional)
 ├── static/                          # Static assets (CSS, images, etc.)
-├── config.toml                      # Hugo configuration
+├── themes/
+│   └── ed/                          # Ed theme (git submodule)
 ├── LICENSE.md                       # License information
 └── README.md                        # This file
 ```
 
 ## Site Configuration
 
-The site is configured in `config.toml`:
+The site is configured in `config/_default/config.toml`:
 
 - **Base URL**: https://poems.akhil.me
 - **Theme**: ed
 - **Language**: English (en-us)
-- **Menu**: Home and Poems sections
 
 To customize:
-- Edit `config.toml` to change the title, description, or other settings
+- Edit `config/_default/config.toml` to change the title, description, or other settings
 - Modify `archetypes/default.md` to change the template for new content
 
 ## Theme
