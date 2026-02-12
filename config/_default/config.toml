@@ -12,8 +12,3 @@ summaryLength = 10
   author = "Akhil"
   favicon = ""
 
-[output]
-  home = ["HTML"]
-
-[module]
-  [module.imports]
