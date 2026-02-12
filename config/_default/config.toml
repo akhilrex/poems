@@ -11,13 +11,9 @@ summaryLength = 10
   description = "A collection of poems exploring life, nature, and reflection"
   author = "Akhil"
   favicon = ""
-  
-[menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "Poems"
-    url = "/poems/"
-    weight = 2
+
+[output]
+  home = ["HTML"]
+
+[module]
+  [module.imports]
