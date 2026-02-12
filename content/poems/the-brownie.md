@@ -5,8 +5,6 @@ draft: false
 description: "I was given a free brownie today at a coffee shop I visit regularly."
 ---
 
-## The Brownie
-
 Can you buy my loyalty?
 and can I even sell it
 for this, albeit really nice
@@ -19,5 +17,3 @@ no doubts about that
 I just want to confirm
 
 Am I cheap?
-
-

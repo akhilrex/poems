@@ -5,8 +5,6 @@ draft: false
 description: "A girl with her tripod"
 ---
 
-## Influence
-
 This girl with her camera & tripod
 fussing over the perfect spot
 with good lighting on her face
@@ -16,4 +14,3 @@ mostly quiet
 to INFLUENCE the world
 one reel at a time
 all of this - in a busy coffee shop
-

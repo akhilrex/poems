@@ -1,14 +1,16 @@
 {{ define "main" }}
-<article>
-    <h1>{{ .Title }}</h1>
-    {{ if .Content }}<div class="content">{{ .Content }}</div>{{ end }}
-
-    <h2>Poems</h2>
-    <ul>
-        {{ range where .Site.RegularPages "Type" "poems" }}
-        <li><a href="{{ .Permalink }}">{{ .Title }}</a> — <span class="date">{{ .Date.Format "January 2, 2006" }}</span>
-        </li>
-        {{ end }}
-    </ul>
-</article>
+<div class="home">
+  <div class="home-intro">
+    <p>{{ .Site.Params.description }}</p>
+  </div>
+  <div class="poem-list">
+    {{ range (where .Site.RegularPages "Section" "poems").ByDate.Reverse }}
+    <a href="{{ .RelPermalink }}" class="poem-card">
+      <h2>{{ .Title }}</h2>
+      {{ with .Description }}<p class="poem-excerpt">{{ . }}</p>{{ end }}
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+    </a>
+    {{ end }}
+  </div>
+</div>
 {{ end }}
