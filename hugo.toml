@@ -2,6 +2,9 @@ baseURL = "https://poems.akhil.me"
 languageCode = "en-us"
 title = "Poems by Akhil"
 
+[markup.goldmark.renderer]
+  hardWraps = true
+
 [params]
   description = "A collection of poems exploring life, nature, and reflection"
   author = "Akhil"
