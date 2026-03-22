@@ -1,8 +1,8 @@
 ---
-title: "Raun"
+title: "Rain"
 date: 2026-03-14T08:00:00Z
 draft: false
-description: "rain is good"
+description: "Rain is good"
 ---
 
 `Written by the 7 year old. Getting complex`
