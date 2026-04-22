@@ -3,7 +3,7 @@ title: "Mice are better"
 date: 2026-04-10T08:00:00Z
 draft: false
 description: "I walk into traps"
---
+---
 
 Every ding, every chat, every email
 I don't want to reply immediately
