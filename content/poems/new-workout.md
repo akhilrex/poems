@@ -1,6 +1,6 @@
 ---
 title: "New Workout Plan"
-date: 2026-04-20T08:00:00Z
+date: 2026-04-21T08:00:00Z
 draft: false
 description: "I am going to be huge"
 ---
