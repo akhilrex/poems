@@ -1,5 +1,5 @@
 ---
-title: "Tiread"
+title: "Tired"
 date: 2026-05-14T08:00:00Z
 draft: false
 description: "So tired"
