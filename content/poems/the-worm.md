@@ -6,7 +6,7 @@ description: "Why be early?"
 ---
 
 Sure
-The early bird catches
+the early bird catches
 -the worm
 but no one told us that we'd be
 -the worms
