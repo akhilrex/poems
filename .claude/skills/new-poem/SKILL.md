@@ -20,8 +20,8 @@ The poem name is passed as the argument (e.g. `/new-poem My New Poem`). If no na
 ```markdown
 ---
 title: "<Poem Name>"
-date: <current date in YYYY-MM-DDTHH:MM:SSZ format, UTC>
-draft: true
+date: <current time minus 2 hrs in YYYY-MM-DDTHH:MM:SSZ format, UTC>
+draft: false
 description: ""
 ---
 ```
@@ -31,6 +31,6 @@ description: ""
 ## Notes
 
 - The title in the frontmatter should be the poem name as given (title case as the user typed it), not the slug.
-- Leave `draft: true` so the empty poem doesn't get published; the user flips it to `false` when the poem is written.
+- Leave `draft: false` so the empty poem doesn't get published; the user flips it to `true` when the poem is written.
 - Do not add any placeholder body text — the body stays empty.
 - Do not commit the file.

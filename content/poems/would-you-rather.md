@@ -2,7 +2,7 @@
 title: "Would You Rather"
 date: 2026-06-10T16:23:17Z
 draft: false
-description: "I feel back about it"
+description: "I'm not proud'"
 ---
 
 "Would you rather
