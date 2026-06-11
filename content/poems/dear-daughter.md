@@ -1,6 +1,6 @@
 ---
 title: "Dear Daughter"
-date: 2026-06-11T12:46:34Z
+date: 2026-06-10T12:46:34Z
 draft: false
 description: "Maybe still a kid"
 ---
