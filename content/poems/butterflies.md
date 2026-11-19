@@ -1,5 +1,5 @@
 ---
-title: "Magic"
+title: "Butterflies"
 date: 2026-11-18T16:23:17Z
 draft: false
 description: "I just like butterflies"
